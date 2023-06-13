@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./estilos/estilo.css" />
+  <link rel="icon" type="image/x-icon" href="./imagenes/angela.jpeg" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Red+Hat+Mono:ital@1&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <title>Ángela Ruiz Robles</title>
+</head>
+
+<body>
+  <header class="hero-image">
+    <nav class="top-navigation">
+      <a href="#intro">Introducción</a>
+      <a href="#Libro mecánico">Libro mecánico</a>
+      <a href="#video">Historia</a>
+    </nav>
+    <div class="hero-text header-text">Ángela Ruiz Robles, Maestra e inventora</div>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h1>Ángela Ruiz Robles</h1>
+    <p class="vida">Nacida en Villamanín (León, España) el 28 de marzo de 1895, hija de Elena Robles y del farmacéutico Feliciano Ruiz.<br>
+      ​Realizó sus estudios superiores en la Escuela de Magisterio de León,<br>
+       donde impartió sus primeras clases de taquigrafía, mecanografía y contabilidad mercantil entre 1915 y 1916.<br>
+
+      En 1917 fue docente y directora en la Escuela de Gordón, en León.<br>
+      En 1918 obtuvo la plaza de maestra en Santa Eugenia de Mandiá, una aldea próxima a Ferrol.<br>
+       Estuvo allí hasta 1928. <br>
+       El 18 de diciembre de 1925 recibió «una distinción especial por sus indiscutibles méritos <br>
+       en agradecimiento a su dedicación y la atención desinteresada» promovida por sus convecinos.<br>
+       En 1934 realizó una importante labor como gerente de la Escuela Nacional de Niñas del Hospicio. <br>
+       En 1945 fue profesora de la Escuela Obrera gratuita.<br>
+       En 1948 enseñó taquigrafía, ortografía, gramática y mecanografía en el Colegio Ibáñez Martín.<br>
+       En 1959 accedió al cargo de directora, que mantuvo hasta su jubilación.<br>
+      
+       Entre 1938 y 1946 escribió, dio conferencias, editó y reeditó la mayor parte de su obra científica, <br>
+       un total de dieciséis libros.Sus tres primeros son: Compendio de ortografía castellana, <br>
+       Ortografía castellana y Taquigrafía martiniana abreviada moderna. <br>
+       Impartió clases a opositores de aduanas, correos, telégrafos y para el ingreso en altos estudios mercantiles<br>
+        en la academia para adultos de su propiedad, Elmaca.<br>
+        Fallecería el	27 de octubre de 1975, con 80 años, en El Ferrol, España.
+    </p>
+    </section>
+    <section id="méritos">
+
+    
+  <div id="titulo">
+  <h3>Inventos</h3>
+  </div>
+  <div class="noticia">
+    <img class="izquierda" src="imagenes/libro.jpg">
+    <aside>
+      <h3>
+        Libro mecánico
+      </h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex cupiditate quidem pariatur. Nam accusantium nobis, recusandae iste autem enim delectus adipisci impedit, esse vel sed eveniet. Iusto, atque consectetur.
+    </aside>
+    <div class="reset"></div>
+  </div>
+  
+  <div class="noticia">
+    <img class="derecha" src="imagenes/enseñanza.jpg">
+    <aside>
+      <h3>
+        Revolucionó los métodos de enseñanza.
+      </h3>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi officia, necessitatibus consequuntur fugiat omnis a earum non numquam voluptatum, esse magnam ullam mollitia laborum doloremque saepe totam molestiae vel!</aside>
+    <div class="reset"></div>
+  </div>
+  
+  <div class="noticia">
+    <img class="izquierda" src="imagenes/colegio.jpg">
+    <aside>
+      <h3>
+        Enseñó a gentes sin recurso en su propia academia
+      </h3>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga cumque voluptates unde facilis nisi atque reiciendis cum numquam, accusantium mollitia placeat eveniet itaque fugit ducimus iste aut, earum, magni animi.
+    </aside>
+    <div class="reset"></div>
+  </div>
+  </section>
+  <section id="video">
+    <button class="pantallacompleta" onclick="openFullscreen();">Pantalla <br> completa</button>
+    <iframe controls id="myvideo" width="745" height="559" src="https://www.youtube.com/embed/yYV0eptATD0"
+      title="Documentary - Hedy Lamarr (Extraordinary Women 2011)" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+      
+
+
+    <script>
+      var elem = document.getElementById("myvideo");
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
+    </script>
+
+  </section>
+  <footer>
+    <p>Juan Carlos García Calvo<br>Primero de ASIR<br>Lenguaje de Marca, Recuperación</p>
+  </footer>
+
+</body>
+
+</html>
